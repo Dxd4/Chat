@@ -29,6 +29,7 @@ def b_usr(cs_sock, sen_name, msg):
 
 
 if __name__ == "__main__":	
+	#Hello from Dxd4
 	messages = ""
 	CONNECTION_LIST = []
 	ser_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
