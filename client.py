@@ -12,6 +12,7 @@ def receive():
 		print(f"\n{sen_name.decode()} > {data.decode()}\n")
 
 if __name__ == "__main__":
+	#Hello from Dxd4
 	cli_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	HOST = input("Ip address: ")
 	PORT = int(input("Port: "))
